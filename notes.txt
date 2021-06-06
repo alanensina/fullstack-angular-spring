@@ -1,0 +1,44 @@
+============= Typescript command lines =============
+
+Command line to compile(transpiling) a .ts to a .js:
+tsc mydemo.ts
+
+Command line to run the .js file:
+node mydemo.js
+
+Command line to compile only if there's no compilation error:
+tsc --noEmitOnError mydemo.ts
+
+Command line to create the tsconfig.json:
+tsc --init
+Obs: Don't forget to set "noEmitOnError": true.
+
+Command line to compile all .ts in the folder if the tsconfig is present:
+tsc
+
+Command line to remove all .js in the folder:
+tsc --build --clean
+
+============= Angular command lines =============
+
+Command line to install Angular CLI:
+npm install -g @angular/cli
+
+Command line to verify Angular version:
+ng version
+
+Command line to create an Angular project:
+ng new <project-name>
+ng new <project-name> --skip-git // Create an app without sub-git stuffs
+
+Command lines to run the Angular app:
+ng serve  // Run the app at the default port 4200
+ng serve --port <port> // Run the app on a specific port
+
+Command line to generate a new component:
+ng generate component <component-name>
+
+Command line to generate a class:
+ng generate class <component-name>/<class-name>
+
+==============================================================
