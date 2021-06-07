@@ -36,9 +36,13 @@ ng serve  // Run the app at the default port 4200
 ng serve --port <port> // Run the app on a specific port
 
 Command line to generate a new component:
-ng generate component <component-name>
+ng generate component <package-name>/<component-name>
 
 Command line to generate a class:
-ng generate class <component-name>/<class-name>
+ng generate class <package-name>/<class-name>
+
+Command line to generate a service:
+ng generate service <package-name>/<service-name>
+
 
 ==============================================================
